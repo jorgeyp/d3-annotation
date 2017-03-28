@@ -62,7 +62,7 @@ export default class Annotation {
 
   annotations(anotations: any[]): Annotation;
   accessors(accessors: any): Annotation;
-  editMode(editMode: boolean): Annotation;
+  editMode(editMode?: boolean): Annotation;
   type(type: any): Annotation;
   updatePosition(): void;
   updateOffset(): void;
