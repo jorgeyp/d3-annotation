@@ -60,7 +60,7 @@ export default class Annotation {
     className: string;
   });
 
-  annotations(anotations: any[]): Annotation;
+  annotations(anotations: any[]): any;
   accessors(accessors: any): Annotation;
   editMode(editMode?: boolean): Annotation;
   type(type: any): Annotation;
